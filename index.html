@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Borrower Copilot — Lokta AI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+    <!-- TOP NAVIGATION -->
+    <header class="navbar">
+
+        <div class="brand">
+
+            <div class="brand-mark">
+                L
+            </div>
+
+            <div class="brand-text">
+                <strong>Lokta</strong>
+                <span>AI</span>
+            </div>
+
+        </div>
+
+        <div class="nav-product">
+            Borrower Copilot
+        </div>
+
+        <div class="secure-badge">
+            <span class="secure-dot"></span>
+            Private assessment
+        </div>
+
+    </header>
+
+
+    <!-- MAIN APP -->
+    <div class="app-shell">
+
+        <!-- LEFT SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="sidebar-top">
+
+                <div class="copilot-icon">
+                    ✦
+                </div>
+
+                <h2>
+                    Borrower<br>
+                    Copilot
+                </h2>
+
+                <p>
+                    Know what you can afford
+                    before you talk to a lender.
+                </p>
+
+            </div>
+
+
+            <div class="journey">
+
+                <div class="journey-title">
+                    YOUR ASSESSMENT
+                </div>
+
+                <div class="journey-step active">
+                    <span class="journey-number">01</span>
+                    <span>Borrowing need</span>
+                </div>
+
+                <div class="journey-step">
+                    <span class="journey-number">02</span>
+                    <span>Income & work</span>
+                </div>
+
+                <div class="journey-step">
+                    <span class="journey-number">03</span>
+                    <span>Existing commitments</span>
+                </div>
+
+                <div class="journey-step">
+                    <span class="journey-number">04</span>
+                    <span>Loan details</span>
+                </div>
+
+                <div class="journey-step">
+                    <span class="journey-number">05</span>
+                    <span>Your assessment</span>
+                </div>
+
+            </div>
+
+
+            <div class="sidebar-footer">
+
+                <div class="privacy-icon">
+                    🔒
+                </div>
+
+                <div>
+                    <strong>No login required</strong>
+                    <span>Your answers stay in this assessment.</span>
+                </div>
+
+            </div>
+
+        </aside>
+
+
+        <!-- CONTENT -->
+        <main class="main-content">
+
+            <!-- PROGRESS -->
+            <div class="progress-area">
+
+                <div class="progress-top">
+
+                    <span id="stepText">
+                        Question 1
+                    </span>
+
+                    <span id="progressText">
+                        0%
+                    </span>
+
+                </div>
+
+                <div class="progress-track">
+
+                    <div id="progress"></div>
+
+                </div>
+
+            </div>
+
+
+            <!-- APP -->
+            <section id="app"></section>
+
+        </main>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
