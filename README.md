@@ -419,5 +419,4 @@ This repository contains the requested challenge deliverables:
 
 
 
-**Next:** create `README.md` in your GitHub repo and paste this entire content into it. After that, we should do **`RULES.md`**, because that is one of the most important parts of the challenge.
-```
+
